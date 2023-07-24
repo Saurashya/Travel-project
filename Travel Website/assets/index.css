@@ -108,7 +108,7 @@ section {
 }
 .video.active {
   clip-path: circle(150% at 0 50%);
-  transition: 1.5s ease;
+  transition: 2.5s ease;
   transition-property: clip-path;
 }
 
