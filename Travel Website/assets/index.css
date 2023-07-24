@@ -111,3 +111,29 @@ section {
   transition: 1.5s ease;
   transition-property: clip-path;
 }
+
+@media screen and (max-width: 600px) {
+  section {
+    padding: 100px 20px;
+  }
+  .container .main-content {
+    width: 100%;
+  }
+  .container .main-content h1 {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+  .container .main-content p {
+    font-size: 0.8rem;
+  }
+  .slider-navigation {
+    transform: translateY(50px);
+  }
+  .slider-navigation .nav-btn {
+    width: 10px;
+    height: 10px;
+  }
+  .slider-navigation .nav-btn:not(:last-child) {
+    margin-right: 10px;
+  }
+}
